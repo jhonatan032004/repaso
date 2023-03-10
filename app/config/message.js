@@ -8,7 +8,7 @@ const message = (mensaje, tipo) => {
     case "warning":
       console.log(mensaje.bgYellow);
       break;
-    case "succes":
+    case "success":
       console.log(mensaje.bgGreen);
       break;
     default:
