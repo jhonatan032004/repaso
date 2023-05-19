@@ -2,9 +2,6 @@ import { pool } from "../config/database/db";
 
 
 export const findAllUser = async (req, res)=>{
-    
-    
-
     try {
         const [rows] = await pool.query("CALL `spFindAllUser`()");
         res.json(rows);
@@ -46,7 +43,7 @@ export const deleteUser = async (req, res)=>{
 }
 export const updateUser = async (req, res)=>{
     const id = req.body.id;
-    const name = req.body.name;
+ /////   const name = req.body.name;
     try {
         console.log("hola")
         const result = await pool.query(`CALL spUpdateUser(${id},'${name}');`);

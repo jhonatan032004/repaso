@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "user",
+    "dateExported": "2023-03-24T22:37:43.639Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cbedc289-9e7f-4130-b56b-f5c0784cffb4",
+            "colId": "3f045a06-f6e1-4d32-929d-6b582a04a350",
+            "containerId": "",
+            "name": "BORRAR",
+            "url": "localhost:3000/api/user/2",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-03-24T22:36:57.528Z",
+            "modified": "2023-03-24T22:36:57.528Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6e235eec-1128-48f1-8b86-305eb60c1a27",
+            "colId": "3f045a06-f6e1-4d32-929d-6b582a04a350",
+            "containerId": "",
+            "name": "BUSCAR",
+            "url": "http://localhost:3000/api/user/6",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-03-24T22:37:01.024Z",
+            "modified": "2023-03-24T22:37:01.024Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "48832c3b-8339-42c2-8138-875e561ed8d3",
+            "colId": "3f045a06-f6e1-4d32-929d-6b582a04a350",
+            "containerId": "",
+            "name": "ACTUALIZAR",
+            "url": "localhost:3000/api/user",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-03-24T22:37:05.495Z",
+            "modified": "2023-03-24T22:37:05.495Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":6,\n  \"name\":\"DANIELA SE FUE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "88ac77c4-be88-4c54-ba76-2e4f4cd48ad4",
+            "colId": "3f045a06-f6e1-4d32-929d-6b582a04a350",
+            "containerId": "",
+            "name": "INSERTAR",
+            "url": "http://localhost:3000/api/user",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-03-24T22:37:09.448Z",
+            "modified": "2023-03-24T22:37:09.448Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"antonia\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ad8a7a86-2053-4fd0-a8bf-5ce4752e2187",
+            "colId": "3f045a06-f6e1-4d32-929d-6b582a04a350",
+            "containerId": "",
+            "name": "MOSTRAR",
+            "url": "http://localhost:3000/api/user",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-24T22:37:13.712Z",
+            "modified": "2023-03-24T22:37:13.712Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
